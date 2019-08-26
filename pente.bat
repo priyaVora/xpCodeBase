@@ -1,0 +1,1 @@
+java -jar Pente.jar

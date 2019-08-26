@@ -1,0 +1,72 @@
+.background {
+	-fx-background-color: linear-gradient(from 25px 25px to 100px 100px, #E8CBC0, #636FA4);
+	-fx-padding: 20;
+}
+
+.buttons {
+	-fx-padding: 8 15 15 15;
+	-fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+	-fx-background-radius: 8;
+	-fx-background-color: linear-gradient(#000428, #004e92);
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 0, 1);
+	-fx-font-weight: bold;
+	-fx-font-size: 1.1em;
+	-fx-max-width: 300;
+	-fx-text-fill: #fff;
+}
+
+.winLabel {
+	-fx-font-weight: bold;
+	-fx-font-size: 1.8em;
+	-fx-max-width: 300;
+	-fx-padding: 0 15 0 15;
+	-fx-text-fill: #fff;
+}
+
+.header {
+	-fx-font-weight: bold;
+	-fx-font-size: 1.3em;
+	-fx-max-width: 300;
+	-fx-padding: 0 15 0 50;
+}
+
+.winButtons {
+	-fx-padding: 4 7 7 7;
+	-fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+	-fx-background-radius: 8;
+	-fx-background-color: linear-gradient(#000428, #004e92);
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 0, 1);
+	-fx-font-weight: bold;
+	-fx-font-size: 1.1em;
+	-fx-max-width: 300;
+	-fx-text-fill: #fff;
+}
+
+.sectionLabels {
+	-fx-font-size: 1.2em;
+	-fx-max-width: 300;
+	-fx-padding: 8;
+	-fx-font-family: "Copperplate Gothic Light";
+}
+
+.notifLabels {
+	-fx-font-size: 1.2em;
+	-fx-max-width: 300;
+	-fx-padding: 8;
+	-fx-font-family: "Copperplate Gothic Light";
+	-fx-text-fill: #00f;
+}
+
+.saveButton {
+	-fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+	-fx-background-radius: 8;
+	-fx-padding: 8 15 15 15;
+	-fx-font-weight: bold;
+	-fx-max-width: 300;
+	-fx-font-family: "Copperplate Gothic Light";
+	-fx-font-size: 1.1em;
+}
+
+.instructionsLabel {
+	-fx-text-fill: #fff;
+}
